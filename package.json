@@ -101,4 +101,16 @@
   "resolutions": {
     "@typescript-eslint/utils": "^8.0.0-alpha.30"
   }
+  "dependencies": {
+  "@remix-run/node": "^1.0.0",
+  "@remix-run/react": "^1.0.0",
+  "@remix-run/serve": "^1.0.0",
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0"
+}
+"scripts": {
+  "build": "remix build",
+  "start": "remix-serve build"
+}
+
 }
